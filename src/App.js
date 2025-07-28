@@ -19,7 +19,7 @@ function App() {
   let InstanceId_ReviewsTab = "";
 
   //Product ID
-  let ProductId = "p21260";
+  let ProductId = "";
 
   //Clipboard text here.
   let ClipBoardHeading = "Follow these steps to add this";
@@ -37,7 +37,7 @@ function App() {
         <div class="accordion" id="accordionExample">
           <Widget
             instanceid={InstanceId_Widget}
-            productid={ProductId}
+            productid="p21260"
             active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
@@ -85,7 +85,7 @@ function App() {
 
           <StarRating
             instanceid={InstanceId_StarRating}
-            productid={ProductId}
+            productid="p21260"
             active="false"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
