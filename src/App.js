@@ -37,7 +37,7 @@ function App() {
         <div class="accordion" id="accordionExample">
           <Widget
             instanceid={InstanceId_Widget}
-            productid="p21260"
+            productid="p19035"
             active="true"
             heading="Reviews Widget"
             clipboardheading={ClipBoardHeading}
@@ -85,7 +85,7 @@ function App() {
 
           <StarRating
             instanceid={InstanceId_StarRating}
-            productid="p21260"
+            productid="p19035"
             active="false"
             heading="Star Rating"
             clipboardheading={ClipBoardHeading}
